@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+<title>Pixmicat!-PIO</title>
+<link rel="stylesheet" type="text/css" href="mainstyle.css" />
+
+<script type="text/javascript">
+// <![CDATA[
+var msgs=['在沒有附加圖檔的情況下，請寫入內文','附加圖檔為系統不支援的格式','偵測到您有輸入櫻花日文假名的可能性，將自動為您轉換'];
+var ext="GIF|JPG|JPEG|PNG|BMP|SWF".toUpperCase().split("|");
+// ]]>
+</script>
+<script type="text/javascript" src="mainscript.js"></script>
+<!--[if lt IE 8]><script type="text/javascript" src="iedivfix.js"></script><![endif]-->
+</head>
+<body>
+
+<div id="header">
+
+<div id="toplink">
+[<a href="../" target="_top">回首頁</a>] [<a href="pixmicat.php?mode=search">搜尋</a>]   [<a href="pixmicat.php?mode=status">系統資訊</a>] [<a href="pixmicat.php?mode=admin">管理區</a>] [<a href="index.htm?">重新整理</a>]
+</div>
+
+<br />
+<h1>Pixmicat!-PIO</h1>
+<hr class="top" />
+</div>
+
+<form action="pixmicat.php" method="post" enctype="multipart/form-data" onsubmit="return c();" id="postform_main">
+<div id="postform">
+
+[<span id="show" class="hide" onmouseover="showform();" onclick="showform();">投稿</span><span id="hide" class="show" onmouseover="hideform();" onclick="hideform();">隱藏表單</span>]
+<input type="hidden" name="mode" value="regist" />
+<input type="hidden" name="MAX_FILE_SIZE" value="2048000" />
+<input type="hidden" name="upfile_path" value="" />
+
+<div style="text-align: center;">
+<table id="postform_tbl" style="padding: 10px;border-spacing; 10px; margin: 0px auto; text-align: left;">
+<tr><td class="Form_bg"><b>名 稱</b></td><td><input class="hide" type="text" name="name" value="spammer" /><input maxlength="100" type="text" name="bvUFbdrIC" id="fname" size="28" value="" /></td></tr>
+<tr><td class="Form_bg"><b>E-mail</b></td><td><input maxlength="100" type="text" name="ObHGyhdTR" id="femail" size="28" value="" /><input type="text" class="hide" name="email" value="foo@foo.bar" /></td></tr>
+<tr><td class="Form_bg"><b>標 題</b></td><td><input class="hide" value="DO NOT FIX THIS" type="text" name="sub" /><input maxlength="100"  type="text" name="SJBgiFbhj" id="fsub" size="28" value="" /><input type="submit" name="sendbtn" value="送 出" /></td></tr>
+<tr><td class="Form_bg"><b>內 文</b></td><td><textarea maxlength="2000" name="pOBvrtyJK" id="fcom" cols="48" rows="4" style="width: 400px; height: 80px;"></textarea><textarea name="com" class="hide" cols="48" rows="4">EID OG SMAPS</textarea></td></tr>
+<tr><td class="Form_bg"><b>附加圖檔</b></td><td><input type="file" name="upfile" id="fupfile"/><input class="hide" type="checkbox" name="reply" value="yes" />[<input type="checkbox" name="noimg" id="noimg" value="on" /><label for="noimg">無貼圖</label>]
+[<input type="checkbox" name="up_series" id="up_series" value="on" /><label for="up_series">連貼機能</label>]
+</td></tr>
+<tr><td class="Form_bg"><b>類別標籤</b></td><td><input type="text" name="category" size="28" value="" /><small>(請以 , 逗號分隔多個標籤)</small></td></tr>
+<tr><td class="Form_bg"><b>刪除用密碼</b></td><td><input type="password" name="pwd" size="8" maxlength="8" value="" /><small>(刪除文章用。英數字8字元以內)</small></td></tr>
+
+<tr><td colspan="2">
+<div id="postinfo">
+<ul><li>可附加圖檔類型：GIF, JPG, JPEG, PNG, BMP, SWF，瀏覽器才能正常附加圖檔</li><li>附加圖檔最大上傳資料量為 2000 KB。當回文時E-mail填入sage為不推文功能</li><li>當檔案超過寬 250 像素、高 250 像素時會自動縮小尺寸顯示</li>
+<li>目前附加圖檔使用量大小： 0 KB / 30000 KB</li>
+
+
+</ul>
+<noscript><div>＊您選擇關閉了JavaScript，但這對您的瀏覽及發文應無巨大影響</div></noscript>
+</div>
+</td></tr>
+</table>
+</div>
+<script type="text/javascript">l1();</script>
+<hr />
+</div>
+</form>
+<script type="text/javascript">hideform();</script>
+
+<div id="contents">
+
+<form action="pixmicat.php" method="post">
+<div id="threads" class="autopagerize_page_element">
+
+<div class="threadpost" id="r2">
+<input type="checkbox" name="2" value="delete" /><span class="title">test</span>
+名稱: <span class="name">qwq</span> [15/11/20(五)21:18 ID:8yMQX4zI] <a href="pixmicat.php?res=2#q2" class="qlink">No.2</a>&#160;[<a href="pixmicat.php?res=2">回應</a>]
+<div class="quote">2333</div>
+
+</div>
+
+<hr />
+
+<div class="threadpost" id="r1">
+<input type="checkbox" name="1" value="delete" /><span class="title">無標題</span>
+名稱: <span class="name">無名氏</span> [05/01/01(六)00:00] <a href="pixmicat.php?res=1#q1" class="qlink">No.1</a>&#160;[<a href="pixmicat.php?res=1">回應</a>]
+<div class="quote">無內文</div>
+
+</div>
+
+<hr />
+
+</div>
+
+
+<div id="del">
+<table style="float: right;">
+<tr><td style="text-align:center;white-space: nowrap;">
+<input type="hidden" name="mode" value="usrdel" />【刪除文章】[<input type="checkbox" name="onlyimgdel" id="onlyimgdel" value="on" /><label for="onlyimgdel">僅刪除附加圖檔</label>]<br />
+刪除用密碼: <input type="password" name="pwd" size="8" value="" /><input type="submit" value=" 執行 " />
+</td></tr>
+</table>
+</div>
+
+<script type="text/javascript">l2();</script>
+</form>
+<div id="page_switch"><table style="border: 1px solid gray" ><tr><td style="white-space: nowrap;">第一頁</td><td>[<b>0</b>] </td><td style="white-space: nowrap;">最後一頁</td></tr></table>
+<br style="clear: left;" />
+</div>
+</div>
+
+<div id="footer">
+<!-- GazouBBS v3.0 --><!-- ふたば改0.8 --><!-- Pixmicat! --><small>- <a rel="nofollow noreferrer license" href="http://php.s3.to" target="_blank">GazouBBS</a> + <a rel="nofollow noreferrer license" href="http://www.2chan.net/" target="_blank">futaba</a> + <a rel="nofollow noreferrer license" href="http://pixmicat.openfoundry.org/" target="_blank">Pixmicat!</a> -</small>
+<script type="text/javascript">preset();</script>
+</div>
+
+</body>
+</html>
